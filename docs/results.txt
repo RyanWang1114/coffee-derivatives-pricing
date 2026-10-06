@@ -1,0 +1,15 @@
+Validation environment: Python 3.12.14, NumPy 2.3.5
+
+Illustrative coffee example; all prices are USD per pound.
+Cost-of-carry futures benchmark: 1.21813568
+Black futures call:             0.07119333
+Monte Carlo futures call:       0.07112483
+Monte Carlo standard error:     0.00040661
+Approximate 95% interval:       [0.07032788, 0.07192179]
+Analytical price in interval:   True
+Spot call (different model):    0.06835799
+
+Volatility sensitivity (Black futures call):
+  15%: 0.03742348
+  25%: 0.07119333
+  35%: 0.10520125
